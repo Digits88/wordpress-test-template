@@ -38,7 +38,7 @@ before_script:
   # Install composer packages before trying to activate themes or plugins
   # - composer install
 
-  - git clone https://github.com/Seravo/wordpress-test-template wp-tests
+  - git clone https://github.com/ahmadawais/wordpress-test-template wp-tests
   - bash wp-tests/bin/install-wp-tests.sh test root '' localhost $WP_VERSION
 
 script:
@@ -78,7 +78,7 @@ before_script:
   # Install composer packages before trying to activate themes or plugins
   # - composer install
 
-  - git clone https://github.com/Seravo/wordpress-test-template wp-tests
+  - git clone https://github.com/ahmadawais/wordpress-test-template wp-tests
   - bash wp-tests/bin/install-wp-tests.sh test root '' localhost $WP_VERSION
 
 script:
@@ -117,16 +117,15 @@ before_script:
   # Install composer packages before trying to activate themes or plugins
   # - composer install
 
-  - git clone https://github.com/Seravo/wordpress-test-template wp-tests
+  - git clone https://github.com/ahmadawais/wordpress-test-template wp-tests
   - bash wp-tests/bin/install-wp-tests.sh test root '' localhost $WP_VERSION
 
 script:
   - phpunit
 ```
 
-## Example plugins using this
+## Using these tests in my plugins here
 
-[https://github.com/Seravo/wp-https-domain-alias](https://github.com/Seravo/wp-https-domain-alias)
+[https://github.com/WPTie/CF7Customizer](https://github.com/WPTie/CF7Customizer)
 
-[https://github.com/Seravo/wp-dashboard-log-monitor](https://github.com/Seravo/wp-https-domain-alias)
 
